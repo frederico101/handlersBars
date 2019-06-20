@@ -10,16 +10,21 @@
 <title>Title</title>
 </head>
 <body>
+<div class="container">
+     <div class="page-wrap">
+        <h1>mypets</h1>
+      
     <div id="pets-container"> 
    <!--button class='btn btn-primary my-4' id='new_user' value='new user'> + Create New</button-->
   
  
  </div>
-
+</div>
+</div>
 <script id="petsTemplate" type="text/x-handlebars-template">
 
  {{#each pets}}
-    <h2>{{name}}</h2>
+    <img src = {{photo}}></img>
  {{/each}}
 
 </script>
